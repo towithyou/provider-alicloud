@@ -1,6 +1,6 @@
-/*
-Copyright 2021 Upbound Inc.
-*/
+// SPDX-FileCopyrightText: 2023 The Crossplane Authors <https://crossplane.io>
+//
+// SPDX-License-Identifier: Apache-2.0
 
 package main
 
@@ -9,9 +9,8 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/crossplane/upjet-provider-template/config"
 	"github.com/crossplane/upjet/pkg/pipeline"
-
-	"github.com/upbound/upjet-provider-template/config"
 )
 
 func main() {
